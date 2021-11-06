@@ -1,4 +1,4 @@
-fetch("http://hp-api.herokuapp.com/api/characters")
+fetch("https://hp-api.herokuapp.com/api/characters")
     .then(data=>data.json())
     // upload the data to html
 
