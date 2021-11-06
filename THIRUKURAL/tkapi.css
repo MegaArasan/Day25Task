@@ -1,0 +1,83 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #00da98,
+    #3ce082,
+    #62e567,
+    #85e947,
+    #a8eb12
+  );
+}
+p {
+  margin: 5px;
+  letter-spacing: 0.5px;
+}
+.content {
+  border: 2px double black;
+  margin: 10px;
+  flex: 0 0 70%;
+  height: 700px;
+  overflow-y: scroll;
+}
+.img {
+  height: 19rem;
+}
+.author {
+  flex: 0 0 25%;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  height: auto;
+}
+.container-fluid {
+  display: flex;
+}
+.kural {
+  border: 2px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  background-image: linear-gradient(
+    to right top,
+    #3df43d,
+    #00ec9a,
+    #00ddd6,
+    #00c9f2,
+    #12b2eb
+  );
+}
+.kural-detail {
+  border: 2px solid rgb(0, 0, 0);
+  display: none;
+}
+.col-12 {
+  padding: 5px;
+  width: 90%;
+  padding-left: 5rem;
+}
+.col-12:hover .kural-detail {
+  display: block;
+  background-image: linear-gradient(
+    to right top,
+    #3df43d,
+    #00ec9a,
+    #00ddd6,
+    #00c9f2,
+    #12b2eb
+  );
+}
+@media (max-width: 517px) {
+  .kural > p {
+    font-size: auto;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    height: 20rem;
+    width: 15rem;
+  }
+}
