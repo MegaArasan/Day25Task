@@ -80,4 +80,7 @@ p {
     height: 20rem;
     width: 15rem;
   }
+  .kural-detail {
+    display: block;
+  }
 }
