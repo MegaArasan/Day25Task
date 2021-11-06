@@ -1,0 +1,56 @@
+body{
+    /* setting background image */
+    background-image:url("image.webp");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: cursive;
+    color: white;
+}
+.row > *{
+    border: 2px solid wheat;
+    background-color:rgb(88, 86, 86);
+    margin: 5px;
+    height: auto;
+    width: auto;
+}
+p{
+    margin: 0px;
+    padding: 3px;
+}
+.img{
+    height: 15rem;
+    width: 10rem;
+}
+/* to disable the image in details div  */
+.box > .image{
+    display: none;
+}
+
+@media (min-width:767px) {
+    .row > *{
+        border: 2px solid wheat;
+        background-color:rgb(88, 86, 86);
+        margin: 5px;
+        height: 18rem;
+        width: auto;
+    }
+    .details{
+        opacity: 0; 
+        position: fixed;
+        top: 2.5rem;
+        right: 0.5rem;
+        width: 15rem;
+        background-color:rgb(85, 88, 86);
+        padding-left: 1rem;
+        border: 2 px solid rgb(3, 3, 3);
+    }
+    .box:hover .details{
+        opacity: 1;
+    }
+    .details:hover *{
+        display: none;
+    } 
+    .box > .image{
+        display: block;
+    }
+}
