@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background: #4d59fb;
+}
+p {
+  margin: 0;
+  padding: 5px;
+  letter-spacing: normal;
+}
+nav {
+  background-color: rgb(47, 70, 141);
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  font-size: large;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  border: 1px solid black;
+  background: rgb(47, 70, 141);
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+input {
+  border: none;
+  background-color: rgb(250, 245, 245);
+  height: 2rem;
+  width: 100%;
+}
+button {
+  border: none;
+  background-color: rgb(250, 245, 245);
+}
+.defo {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.word {
+  background-color: #1f72eeb2;
+  margin: 5px;
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.example {
+  background-color: #1f72eeb2;
+  margin: 5px;
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.phonetics {
+  background-color: #1f72eeb2;
+  margin: 5px;
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  background-color: #1f72eeb2;
+  margin: 5px;
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.message {
+  background-color: #1f72eeb2;
+  margin: 5px;
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.resolve {
+  background-color: #1f72eeb2;
+  margin: 5px;
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
